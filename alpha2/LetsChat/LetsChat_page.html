@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>LetsChat Message page</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=uKM5o2Yf8PLh_w3yNgWfaKzD7m2xIwr5XCqeVUYn9tv7FzF_Kz7ft1Txk7FBZjl75Dza86H_05mLHt4aR6n8OVOH_YlLYt1kAsKnre3BqkFcOGK1aH1GnjA6i0DocIfgUEjhOWoouTkF7Q-S6J7n9lTRWHJDEhX4PU0MQr_ryaARW7EyI3OQZttR0j0W3Zon3PCsPJhcA4lN9wIHI2f5dlW2UhZBcpPjHUo9GmR5AhXaMNvuU1Hlaol3thq8p9O0nJU0XUj88FH2TCvXQrLlH3pZ11qTwLKTr3RZsTy7mUAXPH1ZeBu4LEG5DxXq-FdP4DBx4NjoJXp_-Zxc2dJnxg" charset="UTF-8"></script><script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="LetsChat.css">
+
+</head>
+<body>
+
+<div class="container">
+	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<center>
+		<h1 class="header">	
+			LetsChat	
+			<sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+		<button onclick="send()" class="btn btn-success">Send</button>
+	</div>
+</center>
+
+<script src="LetsChat_page.js"></script>
+</body>
+</html>

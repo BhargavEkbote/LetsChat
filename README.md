@@ -5,10 +5,13 @@ The LetsChat previous branch includes older versions of LetsChat and will contai
 Folders contain older versions, the list below will list what contains what.
 
 ### FOUNDATION
-The foundation contains sub-folders which contain smaller parts that can be integrated with a larger framework.
+The foundation contains sub-folders with smaller parts that can be integrated with a larger framework.
 
 ### Alpha(s)
-There are 3 alpha builds of LetsChat, these are builds that are saved from the development phase before the release.
+There are 3 alpha builds of LetsChat, which are saved from the development phase before the release.
+
+### BETA
+This folder contains the 3 beta builds of LetsChat.
 
 ### Pre-Release
 The pre-release is the last version before the release version.

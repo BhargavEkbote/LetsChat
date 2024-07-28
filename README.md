@@ -17,4 +17,4 @@ This folder contains the 3 beta builds of LetsChat.
 The pre-release is the last version before the release version.
 
 ### core
-LetsChat core has only the bare minimum set of features, it is also compatible with upstream Kwitter unlike LetsChat but is very limited. It is the spiritual successor to the LITE spin that has now officially been abandoned.
+LetsChat <code>core</code> has only the bare minimum set of features, it is also compatible with upstream Kwitter unlike LetsChat but is very limited. It is the spiritual successor to the LITE spin that has now officially been killed off.
